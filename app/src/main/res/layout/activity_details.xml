@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.zybooks.newsqliteapp.DetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class name"/>
+
+    <TextView
+        android:id="@+id/className"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class description"/>
+
+    <TextView
+        android:id="@+id/classDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class description"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Location"/>
+
+    <TextView
+        android:id="@+id/classLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Location"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Day and Time"/>
+
+
+    <TextView
+        android:id="@+id/classDaysTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Day and Time"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructor"/>
+
+    <TextView
+        android:id="@+id/classInstructor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructor"/>
+</LinearLayout>
